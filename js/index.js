@@ -1,10 +1,10 @@
-var inputText = document.querySelector("#input-txt");
+let inputText = document.querySelector("#input-txt");
 
-var btnTranslate = document.querySelector("#btn-translate");
+let btnTranslate = document.querySelector("#btn-translate");
 
-var outputText = document.querySelector("#output-txt");
+let outputText = document.querySelector("#output-txt");
 
-var url = "https://api.funtranslations.com/translate/minion.json";
+let url = "https://api.funtranslations.com/translate/minion.json";
 
 
 function getTranslationUrl(text)
@@ -19,7 +19,7 @@ function clickEventHandler()
         .then(response => response.json())
         .then(json =>
         {
-            var outputVal = json.contents.translated
+            let outputVal = json.contents.translated
             outputText.innerText = outputVal
         })
 }
