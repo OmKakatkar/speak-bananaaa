@@ -53,6 +53,10 @@ main p {
   color: aliceblue;
 }
 
+#output-txt {
+  color: aliceblue;
+}
+
 footer {
   background-color: #f2c94c;
   /* position: fixed; */
