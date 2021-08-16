@@ -53,9 +53,9 @@ main p {
 
 footer {
     background-color: #f2c94c;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0px;
-    height: 25vh;
+    /* height: 25vh; */
     text-align: center;
     padding: 2px;
 }
@@ -67,4 +67,10 @@ footer p {
 
 footer h2 {
     margin: 15px 0px 7px 0px;
+}
+
+.image{
+    display: block;
+    margin: 0.5rem auto;
+    width: 20%;
 }
