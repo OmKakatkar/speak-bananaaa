@@ -1,76 +1,78 @@
 * {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
-    font-family: 'New Tegomin', serif;
+  font-family: "New Tegomin", serif;
+  background-color: rgb(73, 67, 67);
 }
 
 nav {
-    background-color: #f2c94c;
-    padding: 20px 0px;
+  background-color: #f2c94c;
+  padding: 20px 0px;
 }
 
 nav h1 {
-    text-align: center;
-    font-size: 1.7rem;
+  text-align: center;
+  font-size: 1.7rem;
 }
 
 main {
-    display: block;
-    width: 40%;
-    margin: auto;
-    padding: 40px 0px;
+  display: block;
+  width: 40%;
+  margin: auto;
+  padding: 40px 0px;
 }
 
 main textarea {
-    width: 100%;
-    margin: 2px 2px;
-    padding: 2px 2px;
-    font-size: 1.3rem;
-    height: 15vh;
+  width: 100%;
+  margin: 2px 2px;
+  padding: 2px 2px;
+  font-size: 1.3rem;
+  height: 15vh;
 }
 
 .btn {
-    padding: 20px 30px;
-    margin: 11px 0px;
-    background-color: #f2c94c;
-    border: none;
-    font-size: 1.1rem;
+  padding: 20px 30px;
+  margin: 11px 0px;
+  background-color: #f2c94c;
+  border: none;
+  font-size: 1.1rem;
 }
 
 main div {
-    border: 1px solid black;
-    height: 70px;
-    overflow: scroll;
+  border: 1px solid black;
+  height: 70px;
+  overflow: scroll;
 }
 
 main p {
-    margin-top: 20px;
-    margin-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: aliceblue;
 }
 
 footer {
-    background-color: #f2c94c;
-    /* position: fixed; */
-    bottom: 0px;
-    /* height: 25vh; */
-    text-align: center;
-    padding: 2px;
+  background-color: #f2c94c;
+  /* position: fixed; */
+  bottom: 0px;
+  /* height: 25vh; */
+  text-align: center;
+  padding: 2px;
 }
 
 footer p {
-    width: 50%;
-    margin: auto;
+  width: 50%;
+  margin: auto;
 }
 
 footer h2 {
-    margin: 15px 0px 7px 0px;
+  margin: 15px 0px 7px 0px;
 }
 
-.image{
-    display: block;
-    margin: 0.5rem auto;
-    width: 20%;
+.image {
+  display: block;
+  margin: 0.5rem auto;
+  width: 20%;
 }
